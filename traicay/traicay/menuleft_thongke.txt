@@ -1,0 +1,21 @@
+<?php include('include/thongke.php'); ?>
+<table width="147" border="0" cellpadding="0" cellspacing="0" style="padding-top:5px;">
+		<tr>
+			<td style="height:25px; background:url(images/trang.jpg) repeat-x;font-weight:bold" align="left" class="ht" colspan="3">
+				
+				&nbsp;&nbsp;Thống Kê
+			</td>
+		</tr>
+		<tr>
+			<td style="margin-top:4px; width:147px;font-size:14px ;padding:10px; background:#840002; color:#FFFFCC;">
+		
+			Tổng Số Loại Quả: <?php echo $soloaiqua; ?>
+			<br />
+			Tổng Số Quả: <?php echo $soqua; ?>	
+			<br />
+			Số Khách Hàng: <?php echo $khachhang; ?>
+	
+			</td>
+		</tr>
+		
+</table>
